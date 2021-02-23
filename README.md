@@ -1,6 +1,6 @@
 # miniPID flow sensor
 
-This device measures the flow rate of the [Aurora Scientific 200B miniPID](https://aurorascientific.com/products/legacy-applications/environmental-monitoring/minipid-dispersion-sensor/) photo-ionization detector. At its heart lies a Renesas FS2012-1020-NG calibrated mass flow sensor, which is rated for 0 to 2 SLPM. [Will Dickson](https://github.com/willdickson) wrote the [original firmware and software](https://github.com/willdickson/fs2012_flow_sensor), which I slightly modified. 
+This device measures the flow rate of the [Aurora Scientific 200B miniPID](https://aurorascientific.com/products/legacy-applications/environmental-monitoring/minipid-dispersion-sensor/) photo-ionization detector. At its heart lies a Renesas FS2012-1020-NG calibrated mass flow sensor, which is rated for 0 to 2 SLPM. [Will Dickson](https://github.com/willdickson) wrote the [original firmware and software](https://github.com/willdickson/fs2012_flow_sensor), which I [slightly modified](https://github.com/hanhanhan-kim/fs2012_flow_sensor) to make Python 3-compatible (TODO: ).
 
 ## Hardware
 
@@ -16,7 +16,7 @@ In addition to standard electronics equipment and access to a 3D-printer:
 
 The sensor can be swapped out for an alternative Renesas FS2012-series sensor, such as the [FS2012-1100-NG](https://www.digikey.com/en/products/detail/renesas-electronics-america-inc/FS2012-1100-NG/7645220?s=N4IgjCBcoLQBxVAYygMwIYBsDOBTANCAPZQDaIcADJSALoC%2B9hATGSAGIDKzlYzMYMNRgA5AOJ16QA), which is rated for 0 to 10 SLPM. 
 
-The adaptor between the FS2012 sensor and the long metal PID inlet is 3D-printed. The measured OD of the PID's metal inlet is approximately **1.30 mm**. In my experience, printing an exact 1.30 mm ID hole on an FDM printer is tricky, and requires some trial and error. I provide a [`.gcode` file](CAD_files/PID_flow_sensor_for_prusa_mk3s_0.2mm_PLA_MK3S_9m) that worked for me on a Prusa MK3S with Prusament PLA. Adjustments can be made with the provided [`.step` file](CAD_files/PID_flow_sensor_for_prusa_mk3s.step). A corresponding [`.stl` file](CAD_files/PID_flow_sensor_for_prusa_mk3s.stl) is also provided.
+The adaptor between the FS2012 sensor and the long metal PID inlet is 3D-printed. The measured OD of the PID's metal inlet is approximately **1.30 mm**. In my experience, printing an exact 1.30 mm ID hole on an FDM printer is tricky, and requires some trial and error. I provide a [`.gcode` file](CAD_files/PID_flow_sensor_for_prusa_mk3s_0.2mm_PLA_MK3S_9m.gcode) that worked for me on a Prusa MK3S with Prusament PLA. Adjustments can be made with the provided [`.step` file](CAD_files/PID_flow_sensor_for_prusa_mk3s.step). A corresponding [`.stl` file](CAD_files/PID_flow_sensor_for_prusa_mk3s.stl) is also provided.
 
 Alternatively, if trial and error fiddliness is undesirable, print the adaptor from a printing service, such as [Shapeways](https://www.shapeways.com/), and use a somewhat compliant material, such as PA11. For this route, an alternative adaptor with a direct ID that matches the PID's OD is provided in this [`.stl` file](CAD_files/PID_flow_sensor_for_serviced_PA11.stl). (TODO: test this design file.)
 
