@@ -30,15 +30,15 @@ Alternatively, if trial and error fiddliness is undesirable, print the adaptor f
 
 The firmware supports up to two flow sensors, for which GND and VIN are common. 
 
-### Additional notes
-
-Clean the inside of the 3D-printed adaptor prior to use. I recommend going through the channel with some kind of filament (e.g. some solder) to clear away large particulate debris. Then, apply some air pressure through the channel to rid of any remaining particulates. 
-
 ### Assembly
 
 Use the silicone tubing to secure the components together. The assembled sensor, prior to electrical hook-up, might look something like this:
 
 ![Pre-hook-up assembly](docs/assembly.jpg)
+
+### Additional notes
+
+Clean the inside of the 3D-printed adaptor prior to use. I recommend going through the channel with some kind of filament (e.g. some solder) to clear away large particulate debris. Then, apply some air pressure through the channel to rid of any remaining particulates. 
 
 A photo of the sensor in use:
 
