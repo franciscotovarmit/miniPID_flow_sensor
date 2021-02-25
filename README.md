@@ -1,6 +1,6 @@
 # miniPID flow sensor
 
-This device measures the flow rate of the [Aurora Scientific 200B miniPID](https://aurorascientific.com/products/legacy-applications/environmental-monitoring/minipid-dispersion-sensor/) photo-ionization detector. At its heart lies a Renesas FS2012-1020-NG calibrated mass flow sensor, which is rated for 0 to 2 SLPM. [Will Dickson](https://github.com/willdickson) wrote the [original firmware and software](https://github.com/willdickson/fs2012_flow_sensor), which I [slightly modified](https://github.com/hanhanhan-kim/fs2012_flow_sensor) to make Python 3-compatible (TODO: ).
+This device measures the flow rate of the [Aurora Scientific 200B miniPID](https://aurorascientific.com/products/legacy-applications/environmental-monitoring/minipid-dispersion-sensor/) photo-ionization detector. At its heart lies a Renesas FS2012-1020-NG calibrated mass flow sensor, which is rated for 0 to 2 SLPM. [Will Dickson](https://github.com/willdickson) wrote the [original firmware and software](https://github.com/willdickson/fs2012_flow_sensor), which I [slightly modified](https://github.com/hanhanhan-kim/fs2012_flow_sensor) to make Python 3-compatible.
 
 ## Hardware
 
