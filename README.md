@@ -36,14 +36,21 @@ Use the silicone tubing to secure the components together. The assembled sensor,
 
 ![Pre-hook-up assembly](docs/assembly.jpg)
 
+If you're having difficulty adjusting your printer settings so that the adaptor press-fits against the PID inlet, or you're in a rush, just bodge it with some parafilm. Parafilm might not be a bad idea, even if the adaptor fits snugly. The assembled flow sensor device might look something like this:
+
+![Assembled](docs/with_PID.jpg)
+
 ### Additional notes
 
 Clean the inside of the 3D-printed adaptor prior to use. I recommend going through the channel with some kind of filament (e.g. some solder) to clear away large particulate debris. Then, apply some air pressure through the channel to rid of any remaining particulates. 
 
-A photo of the sensor in use:
-
-TODO: Attach photo
 
 ## Data collection
 
-TODO
+Collecting data with the device is straightforward. Clone the [FS2012 flow sensor repo](https://github.com/hanhanhan-kim/fs2012_flow_sensor), upload the firmware, and install the software. The software is Python 3-compatible only. For a Python 2-compatible version of the code, see the [original repo](https://github.com/willdickson/fs2012_flow_sensor). Then, call the relevant Python function (probably `DataReader(<my_port>).get_data()`) in your acquisition script. Alternatively, for something quick, try out the existing `flow_sensor_app` or `flow_sensor_live_plot` scripts:
+
+![app_demo](docs/flow_sensor_app.gif)
+
+![live_plot_demo](docs/flow_sensor_live_plot.gif)
+
+See the [FS2012 flow sensor repo](https://github.com/hanhanhan-kim/fs2012_flow_sensor) repo for more details. 
