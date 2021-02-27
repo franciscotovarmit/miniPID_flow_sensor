@@ -53,4 +53,4 @@ Collecting data with the device is straightforward. Clone the [FS2012 flow senso
 
 ![live_plot_demo](docs/flow_sensor_live_plot.gif)
 
-See the [FS2012 flow sensor repo](https://github.com/hanhanhan-kim/fs2012_flow_sensor) repo for more details. 
+See the [FS2012 flow sensor repo](https://github.com/hanhanhan-kim/fs2012_flow_sensor) for more details. 
