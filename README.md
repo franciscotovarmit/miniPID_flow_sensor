@@ -18,8 +18,6 @@ The sensor can be swapped out for an alternative Renesas FS2012-series sensor, s
 
 The adaptor between the FS2012 sensor and the long metal PID inlet is 3D-printed. The measured OD of the PID's metal inlet is approximately **1.30 mm**. In my experience, printing an exact 1.30 mm ID hole on an FDM printer is tricky, and requires some trial and error. I provide a [`.gcode` file](CAD_files/PID_flow_sensor_for_prusa_mk3s_0.2mm_PLA_MK3S_9m.gcode) that worked for me on a Prusa MK3S with Prusament PLA. Adjustments can be made with the provided [`.step` file](CAD_files/PID_flow_sensor_for_prusa_mk3s.step). A corresponding [`.stl` file](CAD_files/PID_flow_sensor_for_prusa_mk3s.stl) is also provided. *N.B.* I've tried generating `.stl` and `.gcode` files for printing the adaptor with TPU, but I've not yet had any luck.
 
-Alternatively, if trial and error fiddliness is undesirable, print the adaptor from a printing service, such as [Shapeways](https://www.shapeways.com/), and use a somewhat compliant material, such as PA11. For this route, an alternative adaptor with a direct ID that matches the PID's OD is provided in this [`.stl` file](CAD_files/PID_flow_sensor_for_serviced_PA11.stl). (TODO: test this design file.)
-
 ### Hook-up
 
 | Arduino Nano pin                             | FS2012 sensor pin |
